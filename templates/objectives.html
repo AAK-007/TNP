@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajdeed Nizam Party-TNP - Objectives</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .chart {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .chart div {
+            text-align: center;
+            margin: 0 10px;
+        }
+
+        .chart .node {
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #e7f1ff;
+            min-width: 120px;
+            font-size: 14px;
+        }
+
+        .chart .line {
+            width: 40px;
+            height: 2px;
+            background-color: #007bff;
+        }
+
+        .chart .vertical-line {
+            width: 2px;
+            height: 20px;
+            background-color: #007bff;
+            margin: 5px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo-link">
+                <img src="../static/logo.png" alt="TNP Logo" class="party-logo">
+                <span class="logo-text">Tajdeed Nizam Party-TNP</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Objectives-section">
+        <h1>Aims & Objectives of Tajdeed-e-Nizam Party (TNP)</h1>
+        <ul>
+            <li><strong>Protecting Rights:</strong> TNP’s primary objective is to safeguard the basic human rights of all citizens of Pakistan.</li>
+            <li><strong>Promoting Unity:</strong> To promote unity among the citizens of Pakistan for peace, prosperity, and development.</li>
+            <li><strong>Establishing Relations:</strong> To establish relations among all communities and discourage politics based on racism. The political objective is to shun politics of narrow nationalism and encourage all citizens to become one Pakistani nation.</li>
+            <li><strong>Promoting Education:</strong> To focus on spreading education and training among all citizens, especially in less developed areas of Pakistan.</li>
+        </ul>
+
+        <h2>Party Structure</h2>
+        <div class="chart-container">
+            <div class="chart">
+                <div class="node">President</div>
+                <div class="line"></div>
+                <div class="node">Central Council</div>
+                <div class="line"></div>
+                <div>
+                    <div class="node">Central Cabinet</div>
+                    <div class="vertical-line"></div>
+                    <div>
+                        <div class="node">President</div>
+                        <div class="node">Senior VP</div>
+                        <div class="node">3 Vice Presidents</div>
+                        <div class="node">Central Secretary General</div>
+                        <div class="node">5 Deputy Secretaries</div>
+                        <div class="node">Secretary Finance</div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="node">Central Parliamentary</div>
+                <div class="line"></div>
+                <div class="node">Judicial Reforms Committee</div>
+                <div class="line"></div>
+                <div class="node">General Assembly</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div class="chart">
+                <div class="node">Provinces</div>
+                <div class="line"></div>
+                <div>
+                    <div class="node">Punjab</div>
+                    <div class="vertical-line"></div>
+                    <div>
+                        <div class="node">Provincial Executive Committee</div>
+                        <div class="node">Provincial Cabinet</div>
+                        <div class="node">Provincial Parliamentary Party</div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="node">Sindh</div>
+                <div class="line"></div>
+                <div class="node">Balochistan</div>
+                <div class="line"></div>
+                <div class="node">KPK</div>
+                <div class="line"></div>
+                <div class="node">AJK</div>
+                <div class="line"></div>
+                <div class="node">Gilgit Baltistan</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div class="chart">
+                <div class="node">Committees</div>
+                <div class="line"></div>
+                <div>
+                    <div class="node">Gender Equality</div>
+                    <div class="node">Labour & Farmers</div>
+                    <div class="node">Student Federation</div>
+                    <div class="node">Minorities</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add PDF download button -->
+        <div class="download-container">
+            <a href="../static/Party_Structure.pdf" download="Party_Structure.pdf" class="download-button">Download Party Structure PDF</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Tajdeed Nizam Party-TNP. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">Instagram</a>
+            </div>
+            <div class="contact-us">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
